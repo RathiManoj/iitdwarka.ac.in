@@ -1,0 +1,162 @@
+/*
+Devloped by Manoj Rathi
+
+bg-color for header: #041E54
+bg-color for navbar: #01447C
+*/
+@font-face {
+    font-family: 'Adera Display SSi';
+    src: url('../fonts/Adera Display SSi.woff') format('woff');
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div#top_bar p {
+    text-align: right;
+}
+.modal-head {
+    padding: 15px 15px 0;
+}
+.modal-foot {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 15px 15px;
+}
+.modal-foot button {
+    margin: 0 5px;
+}
+
+div#logo {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+div#logo img {
+    height: 150px;
+    width: 150px;
+}
+div#logo div {
+/*
+    margin: 0 auto;
+*/
+}
+div#logo div h1 {
+    margin-bottom: 0px;
+}
+div#logo div h1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Adera Display SSi';
+}
+div#logo div p {
+    text-align: center;
+}
+
+/* -- Section -- */
+div#section {
+    padding: 10px;
+    background-color: #efefef;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -- Footter -- */
+div.footer {
+    background-color: #020202;
+}
+
+/* -- logo2 -- */
+div.logo2 {
+    background: #020202;
+    padding: 2.5em 0;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+div.logo2 a:hover {
+    text-decoration: none;
+}
+div.logo2 h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Adera Display SSi';
+}
+div.logo2 h2 span {
+    color: #6288f1;
+}
+
+/* -- Social Links -- */
+div#social-links {
+    margin: 0;
+    padding: 0.8em 0;
+    text-align: center;
+}
+div#social-links ul {
+    margin-bottom: 0px;
+}
+div#social-links ul li {
+    display: inline-block;
+}
+div#social-links ul li a {
+    display: block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+    border: 2px solid #ea8116;
+    border-radius: 25px;
+}
+div#social-links ul li a i {
+    line-height: 2.2em;
+}
+div#social-links ul li a.facebook:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+div#social-links ul li a.twitter:hover {
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+}
+div#social-links ul li a.google-plus:hover {
+    background-color: #F44336;
+    border-color: #F44336;
+}
+div#social-links ul li a.youtube:hover {
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+/* -- Copy Right -- */
+div.copy-right {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0.8em;
+}
+div.copy-right p {
+    margin: 0px;
+}
+div.copy-right p a {
+    color: #fff;
+    
+}
+div.copy-right p a:hover {
+    color: #ea8116;
+    text-decoration: underline;
+}
