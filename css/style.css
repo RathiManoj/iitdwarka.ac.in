@@ -1,8 +1,5 @@
 /*
 Devloped by Manoj Rathi
-
-bg-color for header: #041E54
-bg-color for navbar: #01447C
 */
 @font-face {
     font-family: 'Adera Display SSi';
@@ -22,6 +19,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#header {
+    background-color: #041E54;
 }
 div#top_bar p {
     text-align: right;
@@ -47,22 +48,48 @@ div#logo img {
     height: 150px;
     width: 150px;
 }
-div#logo div {
 /*
+div#logo div {
     margin: 0 auto;
-*/
 }
+*/
 div#logo div h1 {
     margin-bottom: 0px;
 }
 div#logo div h1 a{
     text-decoration: none;
-    color: black;
+    color: #fff;;
     font-family: 'Adera Display SSi';
 }
 div#logo div p {
+    color: #fff;
     text-align: center;
 }
+
+nav.nav {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #01447C;
+}
+nav.nav a {
+    color: #fff !important;
+}
+
+div.nav-drop {
+    background-color: #01447C;
+}
+div.nav-drop a:hover {
+    background-color: #01447C;
+    font-size: 1.2em;
+}
+/*
+div.nav-drop a:hover div.nav-subdrop {
+    display: block;
+}
+div.nav-subdrop {
+    display: none;
+}
+*/
 
 /* -- Section -- */
 div#section {
